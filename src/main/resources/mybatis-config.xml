@@ -7,5 +7,10 @@
         <!-- goods_id ==> goodsId 开启驼峰命名-->
         <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
-
+    <!--MyBatis Plus 3.4版本以前配置分页插件-->
+    <!--
+    <plugins>
+        <plugin interceptor="com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor"></plugin>
+    </plugins>
+    -->
 </configuration>
